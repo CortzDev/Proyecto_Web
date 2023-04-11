@@ -1,0 +1,87 @@
+body {
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.imgLog{
+    position: relative;
+    bottom: 3px;
+    width:40px ;
+    height:auto ;
+    float:left;
+}
+
+.logC{
+    position: absolute;
+    left: 48%;
+    right: 44.84%;
+    top: 0.50%;
+    bottom: 97.63%;
+    width: 60px;
+}
+
+.ImgInicio{
+    width: auto; /* Ancho del cuadro gris */
+    height: 500px; /* Altura del cuadro gris */
+    background-color: #CCCCCC; /* Color de fondo gris */
+    border: 1px solid #000000; /* Borde de 1 píxel sólido negro */
+}
+  
+
+.cuadrado {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Crea dos columnas de igual ancho */
+    grid-template-rows: 1fr; /* Crea una fila */
+    width: auto; /* Ancho del cuadrado */
+    height: 500px; /* Alto del cuadrado */
+    border: 1px solid black;
+}
+  
+.mitad1 {
+    background-color: rgb(134, 134, 134);
+}
+  
+.mitad2 {
+    background-color: rgb(97, 97, 98);
+}
+  
+.mitad3 {
+    background-color: rgb(159, 159, 161);
+}
+  
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  
+.cuadro {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin-right: 50px;
+    top: 100px;
+    left: 25px;
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.rectangle {
+    width: 1000px;
+    height: 500px;
+    background-color: rgba(181, 181, 181, 0.379);
+    border: 3px solid black;
+}
+
+#titu{
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    bottom: 10px;
+}
