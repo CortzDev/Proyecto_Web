@@ -1,30 +1,20 @@
-body {
-  height: 100%;
-  background-color: #ffffff;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-.imgLog{
-    position: relative;
-    bottom: 3px;
-    width:40px ;
-    height:auto ;
-    float:left;
-}
-
-.logC{
-    position: absolute;
-    left: 48%;
-    right: 44.84%;
-    top: 0.50%;
-    bottom: 97.63%;
-    width: 60px;
-}
-
-.ImgInicio{
+.portada{
     width: auto; /* Ancho del cuadro gris */
-    height: 500px; /* Altura del cuadro gris */
+    height: 561px; /* Altura del cuadro gris */
     background-color: #CCCCCC; /* Color de fondo gris */
     border: 1px solid #000000; /* Borde de 1 píxel sólido negro */
+    margin: 0%;
+}
+
+.portada img{
+    height: 561px;
+    width: 1518px;
+    margin: 0%;
 }
   
 
@@ -32,13 +22,17 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; /* Crea dos columnas de igual ancho */
     grid-template-rows: 1fr; /* Crea una fila */
-    width: auto; /* Ancho del cuadrado */
+    width: 99.8%; /* Ancho del cuadrado */
     height: 500px; /* Alto del cuadrado */
     border: 1px solid black;
+
 }
   
-.mitad1 {
-    background-color: rgb(134, 134, 134);
+.cuadrado img{
+    position: relative;
+    left: 0px;
+    width: 506PX;
+    height: 500px;
 }
   
 .mitad2 {
@@ -85,3 +79,22 @@ body {
     font-size: 50px;
     bottom: 10px;
 }
+
+.slider{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+  }
+  .slider ul{
+      display: flex;
+      animation: cambio 20s infinite alternate linear;
+      width: 400%;
+  }
+  .slider li{
+      width: 100%;
+      list-style: none;
+  }
+  .slider img{
+      width: 100%;
+      height: 100%;
+  }

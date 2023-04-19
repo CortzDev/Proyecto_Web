@@ -4,7 +4,7 @@
 }
 
 footer{
-    background-color: #D4D4D4;
+    background-color: #DDF1F2;
 }
 .item{
     padding: 24px 64px;
@@ -48,8 +48,8 @@ footer ul li{
 }
 
 footer .copyright{
-    background-color: #979797;
-    color: rgb(0, 0, 0);
+    background-color: #00B2B2;
+    color: rgb(255, 255, 255);
     padding: 16px 64px;
     text-align: center;
     font-size: 30px;
@@ -83,20 +83,30 @@ form .Etext{
     position: relative;
     width: 200px;
     height: 200px ;
-    border: 20px solid rgb(247, 0, 0) ;
+    border: 1px solid rgb(0, 0, 0) ;
     top: 20px;
-
+    margin: 20px;
 }
 
 .Dic{
-
     border: 1px solid black;
     padding: 3px 3px 3px 3px;
-    background-color: rgb(183, 180, 180);
-    display: flex;
+    background-color: rgb(219, 219, 219);
     position: relative;
-    width: 200px;
-    left: 230px; /* ajusta la cantidad de píxeles que deseas mover el h3 a la izquierda */
-    bottom: 140px;
-    margin-bottom: -70px;
+    width: 220px;
+    left: 5px; 
+    margin-bottom: -10px;
+    border-radius: 15px;
+}
+
+.Dic h3{
+    text-align: center;
+}
+
+.imgLog{
+    position: relative;
+    bottom: 3px;
+    width:40px ;
+    height:auto ;
+    float:left;
 }
