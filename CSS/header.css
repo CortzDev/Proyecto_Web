@@ -4,12 +4,23 @@
   font-family:'Segoe UI','Open Sans', 'Helvetica Neue';
   list-style: none;
   text-decoration: none;
+  box-sizing: border-box;
 }
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 800;
+}
+
 
 .menu {
   box-shadow: 0 4px 12px rgba(128, 115, 115, 0.1);
   background-color: #00B2B2;
   max-width: 100%;
+
 }
 
 
@@ -28,6 +39,7 @@
 .menu ul li:hover {
   cursor: pointer;
   background-color: #005959;
+  border-bottom: 2px solid #02cfcf;
 }
 .menu ul li:hover ul {
   display: block;
@@ -49,7 +61,7 @@
   position: absolute;
   left: 48%;
   right: 44.84%;
-  top: 0.50%;
+  top: 10%;
   bottom: 97.63%;
   width: 60px;
 }
