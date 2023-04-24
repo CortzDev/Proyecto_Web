@@ -75,9 +75,17 @@
         <div class="container">
             <div class="rectangle">
                 <div class="contenedor">
-                    <div class="cuadro"></div>
-                    <div class="cuadro"></div>
-                    <div class="cuadro"></div>
+
+                    <div  id="imagen"></div>
+                    <!--<div class="cuadro">
+                        
+                    </div>
+                    <div class="cuadro">
+                        <img src="IMG/Vest2.png" alt="Vest2">
+                    </div>
+                    <div class="cuadro">
+                        <img src="IMG/Vest3.jpg" alt="Vest3">
+                    </div> -->
                 </div>
             </div>
         </div> <br> <br> <br>
@@ -102,7 +110,7 @@
                     <div class="footer-title">Redes Sociales</div>
                     <ul>
                         <li>
-                            <div>
+                            <div onclick="redirigirAFacebook()">
                             <img class="imgLog" src="IMG/Fa.svg" 
                             alt="Logo de Facebook">
                             <span>Facebook</span>
@@ -110,13 +118,13 @@
                         </li>
                             
                         <li>
-                            <div>
+                            <div onclick="redirigirAInstagram()">
                                 <img class="imgLog" src="IMG/In.svg" alt="Logo de Instagram">
                                 <span>Instagram</span>
                             </div>
                         </li>
                         <li>
-                            <div>
+                            <div onclick="redirigirAWhatsapp()">
                                 <img class="imgLog" src="IMG/Wh.svg" alt="Logo de WhatsApp">
                                 <span>WhatsApp</span>
                             </div>
@@ -135,5 +143,7 @@
             </div>
             <div class='copyright'> © 2023 LG Alta Costura. All Rights Reserved  </div>
     </footer>
+    <script src="JS/ImgAle.js"></script>
+    <script src="JS/Redes.js"></script>
 </body>
 </html>
