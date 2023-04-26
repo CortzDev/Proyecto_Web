@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/header.css">
+    
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <link rel="stylesheet" href="CSS/Estilo.css">
+    <link rel="icon" href="IMG/1.svg">
+    <title>LG</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="menu">
+          <ul>
+            <li>INICIO</li>
+            <li >COLECCIONES
+                <ul>
+                    <li>EJM.1</li>
+                    <li>EJM.2</li>
+                    <li>EJM.3</li>
+                    <li>William</li>
+                    <li>EJMEMPLO.3</li>
+                  </ul>
+            </li>
+            <li>SOBRE NOSOSTROS</li>
+            <li>CONTACTO</li>
+            <img class="logC" src="IMG/1.svg" alt="Logo">
+          </ul>
+        </div>
+    </header>
+
+    <div class="slider">
+        <ul>
+            <li>
+                <img class="portada" src="IMG/Portada.png" alt="Portada_1">
+            </li>
+            <li>
+                <img class="portada" src="IMG/Portada2.png" alt="Portada_2">
+            </li>
+            <li>
+                <img class="portada" src="IMG/Portada3.png" alt="Portada_3">
+            </li>
+            <li>
+                <img class="portada" src="IMG/Portada4.png" alt="Portada_4">
+            </li>
+        </ul>
+    </div>
+
+    
+
+        
+    <div class="cuadrado">
+        <img src="IMG/Vest1.jpg" alt="Vest1">
+        <img src="IMG/Vest2.png" alt="Vest2">
+        <img src="IMG/Vest3.jpg" alt="Vest3">
+    </div>
+
+    <div class="cuadrado">
+        <img src="IMG/Vest4.png" alt="Vest4">
+        <img src="IMG/Vest5.png" alt="Vest5">
+        <img src="IMG/Vest6.png" alt="Vest6">
+    </div>
+
+
+    <br><br>
+        <div>
+            <h3 id="titu">Descuentos</h3>
+        </div>
+        
+
+        <div class="container">
+            <div class="rectangle">
+                <div class="contenedor">
+
+                    <div  id="imagen"></div>
+                    <!--<div class="cuadro">
+                        
+                    </div>
+                    <div class="cuadro">
+                        <img src="IMG/Vest2.png" alt="Vest2">
+                    </div>
+                    <div class="cuadro">
+                        <img src="IMG/Vest3.jpg" alt="Vest3">
+                    </div> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-group">
+                    <label>Teléfono</label>
+                    <input type="text" placeholder="Digite su Teléfono" name="name" />
+                </div>
+                <div class="input-group">
+                    <label>Correo Electronico</label>
+                    <input type="text" placeholder="Digite su correo" name="name" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-group">
+                    <label>Contraseña</label>
+                    <input type="text" placeholder="Digite su Contraseña" name="name" />
+                </div>
+            </div>
+            <div class="form-footer">
+                <button class="btn-submit">Registrar</button>
+              </div>
+        </form>
+    </div>
+    
+    <footer>
+        <br>
+        <div class="item">
+            <div class="app">
+                <span class='Ubicacion'>
+                 <span>Ubicacion</span>
+                  <br>
+                    </span>
+                    <iframe class="iframeMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d498.5778944134363!2d-90.0315686844355!3d13.774361241839557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85881de7199287c9%3A0xf28a016b06bb3eb1!2sLuz%20Galindo%2C%20Alta%20Costura!5e0!3m2!1ses-419!2ssv!4v1681227071762!5m2!1ses-419!2ssv"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <img class="imgFlecha" src="IMG/Flecha.svg" alt="Fecha">
+                    <div class="Dic">
+                        <h3>Visitanos En Cara Sucia</h3>
+                    </div>
+                    
+                </div>
+               
+                <div>
+                    <div class="footer-title">Redes Sociales</div>
+                    <ul>
+                        <li>
+                            <div onclick="redirigirAFacebook()">
+                            <img class="imgLog" src="IMG/Fa.svg" 
+                            alt="Logo de Facebook">
+                            <span>Facebook</span>
+                        </div>
+                        </li>
+                            
+                        <li>
+                            <div onclick="redirigirAInstagram()">
+                                <img class="imgLog" src="IMG/In.svg" alt="Logo de Instagram">
+                                <span>Instagram</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div onclick="redirigirAWhatsapp()">
+                                <img class="imgLog" src="IMG/Wh.svg" alt="Logo de WhatsApp">
+                                <span>WhatsApp</span>
+                            </div>
+                        </li>
+                      </ul>
+                </div>
+                
+                <div class="email">
+                    <div class="footer-title">Preguntas</div>
+                    <form action="/" method="post">   
+                        <input type="email" name="g-email" class="Etext" id="g-email" placeholder='Escribenos' />
+                        <button type="submit" class='btnE'>ENVIAR</button>
+                    </form>
+                    
+                </div>
+            </div>
+            <div class='copyright'> © 2023 LG Alta Costura. All Rights Reserved  </div>
+    </footer>
+    <script src="JS/ImgAle.js"></script>
+    <script src="JS/Redes.js"></script>
+</body>
+</html>
