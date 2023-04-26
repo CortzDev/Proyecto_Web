@@ -1,0 +1,114 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    height: 100%;
+    overflow: scroll;
+}
+
+.titulo {
+    background-color: #2E3232;
+    position: fixed;
+    width: 100%;
+    /height: 60px;/
+}
+.titulo2 {
+    background-color: #E1F7F2;
+    position: fixed;
+    width: 100%;
+    margin-top: 50px;
+    height: 40px;
+}
+.lista {
+    padding-top: 8px;
+}
+.text-title {
+    color:white;
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.form {
+    position: relative;
+    top: 60px;
+    /margin-top: 150px;/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.input-group{
+    flex: 1;
+    display: flex;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    margin: 10px 5px;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(163, 235, 211);
+}
+
+input[type="text"] {
+    font-size: 18px;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #666;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: white;
+    outline: none;
+}
+
+.form-title {
+    
+    text-align: center;
+    border-bottom:1px solid #cccccc;
+    padding-bottom: 12px;
+}
+
+label {
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 4px;
+}
+
+
+
+.form-footer {
+    display: flex;
+    justify-content: end;
+    margin-top: 8px;
+
+}
+
+.btn-submit {
+    padding:10px 20px;
+    background-color: #1BBA93;
+    font-size:17px;
+    border:none;
+    border-radius:5px;
+    color: white;
+    cursor:pointer;
+
+}
+
+/* Formulario responsivo en DM (dispositivos moviles) */
+@media only screen and (max-width: 500px) {
+    .row{
+      flex-direction:column; 
+    }
+    .btn-submit{
+        flex: 1;
+    }
+}

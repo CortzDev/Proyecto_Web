@@ -46,7 +46,7 @@
 }
 
 .logC{
-  position: absolute;
+  position: fixed;
   left: 48%;
   right: 44.84%;
   top: 0.50%;

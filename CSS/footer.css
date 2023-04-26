@@ -7,10 +7,10 @@ footer{
     background-color: #DDF1F2;
 }
 .item{
-    padding: 24px 64px;
+    padding: 15px 15px;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-gap: 32px;
+    grid-gap: 24px;
 }
 footer .Ubicacion{
     color: rgb(0, 0, 0);
