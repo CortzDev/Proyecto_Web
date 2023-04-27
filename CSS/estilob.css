@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.portada{
+    width: auto; /* Ancho del cuadro gris */
+    height: 561px; /* Altura del cuadro gris */
+    background-color: #CCCCCC; /* Color de fondo gris */
+    border: 1px solid #000000; /* Borde de 1 píxel sólido negro */
+    margin: 0%;
+}
+
+.portada img{
+    height: 561px;
+    width: 1518px;
+    margin: 0%;
+}
+  
+
+.cuadrado {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Crea dos columnas de igual ancho */
+    grid-template-rows: 1fr; /* Crea una fila */
+    width: 99.8%; /* Ancho del cuadrado */
+    height: 500px; /* Alto del cuadrado */
+    border: 1px solid black;
+
+}
+  
+.cuadrado img{
+    position: relative;
+    left: 0px;
+    width: 506PX;
+    height: 500px;
+}
+  
+.mitad2 {
+    background-color: rgb(97, 97, 98);
+}
+  
+.mitad3 {
+    background-color: rgb(159, 159, 161);
+}
+  
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  
+.cuadro {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin-right: 50px;
+    top: 100px;
+    left: 25px;
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.rectangle {
+    width: 1000px;
+    height: 500px;
+    background-color: rgba(181, 181, 181, 0.379);
+    border: 3px solid black;
+}
+
+#titu{
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    bottom: 10px;
+}
+
+.slider{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+  }
+  .slider ul{
+      display: flex;
+      animation: cambio 20s infinite alternate linear;
+      width: 400%;
+  }
+  .slider li{
+      width: 100%;
+      list-style: none;
+  }
+  .slider img{
+      width: 100%;
+      height: 100%;
+  }
+
+  .buscar{
+    position: relative;
+    padding: 10px;
+    left: 28rem;
+    font-size: sans-serif;
+  }
+  
+  .buscar input{
+    font-size: sans-serif;
+   width: 400px;
+   height: 50px;
+   padding: 0 40px ;
+   font-size: 18px;
+   color: black;
+   outline: none;
+   border: 2px solid silver;
+   
+  }
+
+  .D img{
+    position: relative;
+    left: 50px;
+    right: 40px;
+    width: 26rem;
+    height: 400px;
+}
